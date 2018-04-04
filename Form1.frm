@@ -9,19 +9,19 @@ Begin VB.Form Form1
    ScaleHeight     =   5820
    ScaleWidth      =   12285
    StartUpPosition =   3  'Windows Default
-   Begin VB.CommandButton Command1 
-      Caption         =   "Start"
+   Begin VB.CommandButton cmdKeluar 
+      Caption         =   "Keluar"
       Height          =   615
       Left            =   1920
       TabIndex        =   5
       Top             =   4200
       Width           =   1575
    End
-   Begin VB.Timer Timer1 
+   Begin VB.Timer timTampilan 
       Left            =   240
       Top             =   4440
    End
-   Begin VB.Label Label5 
+   Begin VB.Label lblTahun 
       BackColor       =   &H80000005&
       Caption         =   "tahun"
       Height          =   495
@@ -30,7 +30,7 @@ Begin VB.Form Form1
       Top             =   3960
       Width           =   3375
    End
-   Begin VB.Label Label4 
+   Begin VB.Label lblAngka 
       BackColor       =   &H80000005&
       Caption         =   "angka"
       Height          =   2055
@@ -39,7 +39,7 @@ Begin VB.Form Form1
       Top             =   1320
       Width           =   3375
    End
-   Begin VB.Label Label3 
+   Begin VB.Label lblBulan 
       BackColor       =   &H80000005&
       Caption         =   "bulan"
       Height          =   615
@@ -48,7 +48,7 @@ Begin VB.Form Form1
       Top             =   240
       Width           =   3255
    End
-   Begin VB.Label Label2 
+   Begin VB.Label lblJam 
       BackColor       =   &H80000005&
       Caption         =   "jam"
       Height          =   2295
@@ -57,7 +57,7 @@ Begin VB.Form Form1
       Top             =   1320
       Width           =   3255
    End
-   Begin VB.Label Label1 
+   Begin VB.Label lblHari 
       BackColor       =   &H80000005&
       Caption         =   "hari"
       Height          =   615
