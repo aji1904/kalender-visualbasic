@@ -18,6 +18,7 @@ Begin VB.Form Form1
       Width           =   1575
    End
    Begin VB.Timer timTampilan 
+      Interval        =   1000
       Left            =   240
       Top             =   4440
    End
@@ -72,3 +73,15 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Private Sub cmdKeluar_Click()
+    Unload Me
+End Sub
+
+Private Sub timTampilan_Timer()
+    Dim Hari_ini As Variant
+    Hari_ini = Now 'Mengambil tanggal dan jam sistem'
+    lblHari.Caption = Format(Hari_ini, "dddd")
+    lblBulan.Caption = Format(Hari_ini, "mmmm")
+    lblTahun.Caption = Format(Hari_ini, "yyyy")
+    lblAngka.Caption = Format(Hari_ini, "d")
+End Sub
