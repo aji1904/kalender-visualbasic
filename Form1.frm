@@ -10,7 +10,7 @@ Begin VB.Form Form1
    ScaleWidth      =   12285
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command1 
-      Caption         =   "Command1"
+      Caption         =   "Start"
       Height          =   615
       Left            =   1920
       TabIndex        =   5
@@ -22,7 +22,7 @@ Begin VB.Form Form1
       Top             =   4440
    End
    Begin VB.Label Label5 
-      BackColor       =   &H8000000D&
+      BackColor       =   &H80000005&
       Caption         =   "tahun"
       Height          =   495
       Left            =   5880
@@ -31,7 +31,7 @@ Begin VB.Form Form1
       Width           =   3375
    End
    Begin VB.Label Label4 
-      BackColor       =   &H8000000D&
+      BackColor       =   &H80000005&
       Caption         =   "angka"
       Height          =   2055
       Left            =   5880
@@ -40,7 +40,7 @@ Begin VB.Form Form1
       Width           =   3375
    End
    Begin VB.Label Label3 
-      BackColor       =   &H8000000D&
+      BackColor       =   &H80000005&
       Caption         =   "bulan"
       Height          =   615
       Left            =   6000
@@ -49,16 +49,16 @@ Begin VB.Form Form1
       Width           =   3255
    End
    Begin VB.Label Label2 
-      BackColor       =   &H8000000D&
+      BackColor       =   &H80000005&
       Caption         =   "jam"
       Height          =   2295
-      Left            =   720
+      Left            =   600
       TabIndex        =   1
       Top             =   1320
-      Width           =   3015
+      Width           =   3255
    End
    Begin VB.Label Label1 
-      BackColor       =   &H8000000D&
+      BackColor       =   &H80000005&
       Caption         =   "hari"
       Height          =   615
       Left            =   600
